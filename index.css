@@ -1,0 +1,116 @@
+.img1{
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+}
+.image{
+    background-color:rgb(181, 179, 179);
+    border: 4px;
+    margin: 30px;
+    padding: 20px;
+    border-radius:4px;
+    border-width: 5px;
+    border-color: black;
+    text-align: center;
+    border-color: black;
+    outline: solid grey;
+}
+.image:hover{
+    animation-name: image;
+    animation-duration: 15s;
+}
+.caurosel-img{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+.title{
+    color: aliceblue;
+   padding-left: 330px;
+    font-size: 40px;
+    margin: 10px;
+    margin-top: 45px;
+
+}
+.search-wrapper{ text-align: center;
+    height: 50px;
+    width: 900px;
+    font-size: 30px;
+    margin: 10px;
+}
+@keyframes image {
+    0%{
+        background-color: rgb(150, 11, 87);
+    }
+    100%{
+        background-color: rgb(235, 235, 244);
+    }
+    
+}
+.logo{
+    height: 100px;
+    width: 150px;
+}
+.bg-1{
+    background-image: url('https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?semt=ais_hybrid');
+    background-size: cover;
+    height: 130vh;
+}
+.h11{
+    color: aliceblue;
+    margin: 20px;
+    padding-left: 45px;
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: 'roboto';
+}
+.btnn{
+    background-color: rgba(0, 0, 0, 0.552);
+    color: aliceblue;
+    padding: 10px;
+    width: 150px;
+    margin:30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: aliceblue;
+}
+.logo:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+@keyframes enlarge {
+    0%{
+       scale:1.05;
+    }
+}
+.head{
+    font-size:30px;
+    padding-left:50px;
+     color:aliceblue;
+}
+.head:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+.btnn:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+.img1:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+.bottom{
+    background-image: linear-gradient(rgb(92, 9, 113), rgb(134, 9, 90));
+    color:white;
+    padding: 20px;
+    font-size: 50px;
+    font-family: roboto;
+
+}
+.about-h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
